@@ -7357,7 +7357,7 @@ horrify:
         - 'POTION:SLOW_DIGGING:23:80 <aoe> radius=32 target=damageable </aoe>'
         - 'MESSAGE:&4&l** HORRIFY ** <aeo> radius=32 target=damageable </aoe>'
 chainlifesteal:
-  display: '%group-color%Chain Lifesteal'
+  display: '%group-color%鏈條生命'
   description: 'A chance to regain health from multiple\nenemies near your damaged target based on level'
   applies-to: 'Chestplate'
   type: 'ATTACK'
@@ -7378,7 +7378,7 @@ chainlifesteal:
         - 'STEAL_HEALTH:<random number>1-3</random number> <aoe> radius=6 target=damageable </aoe>'
         - 'MESSAGE:&4&l** CHAIN LIFESTEAL ** &7(-5 &cHP&7) <aoe> radius=6 target=damageable </aoe>'
 soulsiphone:
-  display: '%group-color%Soul Siphone'
+  display: '%group-color%靈魂虹吸'
   description: "Proc'ing on outgoing damage events this enchant siphons souls\nand durability from enemies in large quantities!."
   applies-to: 'Boots'
   type: 'DEFENSE'
