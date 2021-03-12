@@ -120,19 +120,19 @@ alchemist:
         type: STAINED_GLASS_PANE
         damage: 0
     item-explanation:
-      name: "&e&lAlchemist"
+      name: "&e&lAl煉金術士"
       lore:
-        - '&7The Alchemist will Exchange...'
+        - '&7The 煉金術士將交換...'
         - ''
-        - '&b&l* &f2X Enchantment Books'
-        - '&7(of the same type and level)'
-        - '&d= &f1X Enchantment Book'
-        - '&7(of higher level)'
+        - '&b&l* &f2X 附魔書'
+        - '&7(相同類型和級別)'
+        - '&d= &f1X 附魔書'
+        - '&7(更高層次)'
         - ''
-        - '&b&l* &f2X Magic Dust'
-        - '&7(of the same rarity)'
-        - '&d= &f1X Magic Dust'
-        - '&7(of higher chances)'
+        - '&b&l* &f2X 魔法塵埃'
+        - '&7(同樣罕見的)'
+        - '&d= &f1X 魔法塵埃'
+        - '&7(更高的機會)'
       item:
         type: STAINED_GLASS_PANE
         damage: 14
@@ -165,7 +165,7 @@ souls:
   item:
     type: PAPER
     id: 0
-    name: "&f&lSoul Tracker"
+    name: "&f&l靈魂追蹤器"
     lore:
       - '&7Apply to weapons to start tracking'
       - '&7souls collected from kills.'
@@ -319,9 +319,9 @@ items:
   black-scroll:
     type: INK_SACK
     id: 0
-    name: '&f&lBlack Scroll'
+    name: '&f&l黑色捲軸'
     lore:
-      - '&7Removes a random enchantment'
+      - '&7隨機刪除魔咒'
       - '&7from an item and converts'
       - '&7it into a &f%success%% &7success book.'
       - '&fPlace scroll onto item to extract.'
@@ -330,31 +330,31 @@ items:
     random: true
     messages:
       noEnchantments: '&c&l(!)&c This item has &l0&c enchantments!'
-      cannotBeRemoved: '&c&l(!)&c %enchant% cannot be removed as it''s invalid.'
+      cannotBeRemoved: '&c&l(!)&c %enchant% 無法刪除，因為它是無效的.'
   secret-dust:
     type: FIREBALL
     id: 0
-    name: '%group-color%%group-name%%group-color% Secret Dust &7(Right Click)'
+    name: '%group-color%%group-name%%group-color% 秘密灰塵 &7(右鍵單擊)'
     lore:
-      - '&7Contains: &bMagic, &fMystery &7dust.'
-      - '&7An unidentified satchel of dust.'
+      - '&7包含: &b魔法, &f神秘 &7灰塵.'
+      - '&7An 不明的塵埃背囊.'
   mystery-dust:
     type: SULPHUR
     id: 0
-    name: '&fMystery Dust'
+    name: '&f神秘塵埃'
     lore:
-      - '&7A failed bi-product'
-      - '&7of Magic dust.'
+      - '&7A 失敗的雙產品'
+      - '&7of 神奇的塵埃.'
   magic-dust:
     type: SUGAR
     id: 0
-    name: '%group-color%%group-name%%group-color% Magic Dust'
+    name: '%group-color%%group-name%%group-color% 魔法塵埃'
     lore:
       - '&a+%percent%% Success'
-      - '&7Apply to a &7any %group-color%%group-name% &7Enchantment Book'
+      - '&7適用於 a &7任何 %group-color%%group-name% &7附魔書'
       - '&7to increase its success by %group-color%%percent%%'
     messages:
-      cannotApplyToStacked: '&c&l(!) &cCannot be applied to stacked books'
+      cannotApplyToStacked: '&c&l(!) &c不能應用於堆疊書籍'
   slot-increaser:
     type: EYE_OF_ENDER
     id: 0
@@ -714,8 +714,8 @@ messages:
       - '&6Max level&7: &e%max-level%'
     enchantment-not-found:
       - '&cEnchantment &c&n%enchant%&c could not be found.'
-    player-not-online: '&f%player% &cis not online!'
-    no-permission: '&cYou do not have permission to use this command.'
+    player-not-online: '&f%player% &cis 不在線！'
+    no-permission: '&c您沒有使用此命令的許可權。'
     not-a-number: '&f%number% &cis not a number!'
     invalid-level: '&cLevel is too big, try using:&f %levels%'
   enchantment-cannot-be-removed: '&cEnchantment %enchant% cannot be removed!'
